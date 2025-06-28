@@ -12,7 +12,7 @@ public class multiples {
                 }
             }
          }
-         for(int i=2;i<=num;i++){
+         for(int i=2;i<=num;i++){ 
             if(!primes[i]){
                 System.out.print(i+" ");
             }
