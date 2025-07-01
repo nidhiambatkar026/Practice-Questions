@@ -1,5 +1,6 @@
 import java.util.Scanner;
 
+
 class StringReversal {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
@@ -24,9 +25,8 @@ class StringReversal {
                Start = end+1;
             }
         }
-
-        return new String(chars); 
-        
+        reverse(chars, Start, n-1);//for last word
+        return new String(chars);  
     }
 
     static void reverse(char[] arr, int i, int j) {
@@ -37,7 +37,8 @@ class StringReversal {
 
             i++;
             j--;
-
+            
         }
     }
 }
+
