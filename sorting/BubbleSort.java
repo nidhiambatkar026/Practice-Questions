@@ -40,5 +40,7 @@ public class BubbleSort {
 
         System.out.println("Sorted array:");
         printArray(arr);
+
+        System.out.println("Succesfully implemented bubble sort code");
     }
 }
